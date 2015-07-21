@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root :to => 'vitamin#input'
+  root :to => 'test_c#input'
 	get ":controller(/:action(/:id))"
 	post ":controller(/:action(/:id))"
 
